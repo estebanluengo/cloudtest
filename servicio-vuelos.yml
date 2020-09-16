@@ -1,7 +1,6 @@
 server: 
   port: 9000
-  
-# Nombre identificador del servicio
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -16,8 +15,6 @@ spring:
 
 # Config de el servidor  
 eureka: 
-  instance: 
-    hostname: ${servidor}
   client:
     serviceUrl:
       # Direccion a la que se conecta el microservicio con eureka
